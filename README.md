@@ -5,7 +5,7 @@ Deploy a **zero-cost** n8n stack using **Railway** for compute and **Supabase** 
 
 ## 1‑Click Deploy
 
-[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new?template=https://github.com/JulioAmestica/n8n-railway-template)
+[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new?template=https://github.com/JulioAmestica/n8n-railway-template.git)
 
 > **Cómo usar el botón:**  
 > 1) Sube este repo a tu GitHub (p.ej. `julioamestica/n8n-railway-template`).  
@@ -20,14 +20,14 @@ Crea las variables en Railway (o usa el *Deploy Template* que te las pedirá). C
 
 ```
 DB_TYPE=postgresdb
-DB_POSTGRESDB_HOST=
+DB_POSTGRESDB_HOST=aws-1-us-east-1.pooler.supabase.com
 DB_POSTGRESDB_PORT=6543
 DB_POSTGRESDB_DATABASE=postgres
-DB_POSTGRESDB_USER=postgres
-DB_POSTGRESDB_PASSWORD=
+DB_POSTGRESDB_USER=postgres.echswwlzzpkkrtlgexfr
+DB_POSTGRESDB_PASSWORD=@wBWvk*t321I7nUE
 
 # Seguridad / Región
-N8N_ENCRYPTION_KEY=
+N8N_ENCRYPTION_KEY=3abdcce9002a38f008f9b195a5182fa970a299a29c9aadcea617b61fcd970fb3
 GENERIC_TIMEZONE=America/Santiago
 
 # Host/URL (ajústalas después del primer deploy con tu dominio Railway)
