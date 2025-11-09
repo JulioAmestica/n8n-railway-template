@@ -5,7 +5,7 @@ Deploy a **zero-cost** n8n stack using **Railway** for compute and **Supabase** 
 
 ## 1‑Click Deploy
 
-[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new?template=https://github.com/JulioAmestica/n8n-railway-template.git)
+[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new?template=https://github.com/JulioAmestica/n8n-railway-template)
 
 > **Cómo usar el botón:**  
 > 1) Sube este repo a tu GitHub (p.ej. `julioamestica/n8n-railway-template`).  
